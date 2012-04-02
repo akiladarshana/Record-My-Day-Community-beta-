@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, RecordMyDayMainActivity!</string>
+    <string name="app_name">Record My Day</string>
+    <string name="pass_req">Enter your Password</string>
+    <string name="login_button">Login</string>
+    <string name="copmany_web">www.cstlabs.com</string>
+    <string name="forget_pass">"forget password ? "</string>
+
+    <color name="colour_black">#000000</color>
+
+    <string name="notes">New Note</string>
+    <string name="photos">Add Photo</string>
+    <string name="calender">My Calender</string>
+    <string name="timeline">My Story</string>
+
+    <color name="bak_yellow">#f8fa86</color>
+
+    <string name="new_note">New Note</string>
+    <string name="title">Title</string>
+    <string name="date">Date</string>
+    <string name="edit">Change</string>
+    <string name="location">Location</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="selectImage">Select Image From Gallery</string>
+
+    <color name="white">#ffffff</color>
+
+    <string name="new_photo">Add New Photo</string>
+
+</resources>

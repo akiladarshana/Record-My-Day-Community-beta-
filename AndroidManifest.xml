@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cstlabs.rmd"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="10" />
+
+    <application
+        android:allowTaskReparenting="false"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".RecordMyDayMainActivity"
+            android:label="Record My Day"
+            android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UIControl.Navigation.Home"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            <intent-filter android:label="homelaunch" >
+            </intent-filter>
+        </activity>
+        <activity android:name=".UIControl.Notes.AddNewNote" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+            <intent-filter android:label="newNote" >
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UIControl.Photos.AddNewPhoto"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:launchMode="standard">
+        </activity>
+        <activity android:name=".UIControl.Notes.ViewNote" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".UIControl.Photos.ViewPhoto" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".UIControl.Notes.NoteSearchResults" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".UIControl.Navigation.MultiSearch" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+        <activity android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:name=".UIControl.Photos.PhotoSearchResults"></activity>
+        <activity android:name=".UIControl.System.Login" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:screenOrientation="portrait"></activity>
+        <activity android:name=".UIControl.System.FirstRun" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:screenOrientation="portrait"></activity>
+        <activity android:name=".UIControl.System.SystemSettings" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

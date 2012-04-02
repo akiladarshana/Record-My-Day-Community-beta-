@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res\layout\add_new_photo.xml" />
+        <ignore path="res\layout\login.xml" />
+    </issue>
+    <issue id="NestedScrolling">
+        <ignore path="res\layout\add_new_photo.xml" />
+    </issue>
+    <issue id="ScrollViewSize">
+        <ignore path="res\layout\add_new_photo.xml" />
+    </issue>
+    <issue id="TextFields">
+        <ignore path="res\layout\add_new_photo.xml" />
+    </issue>
+</lint>
